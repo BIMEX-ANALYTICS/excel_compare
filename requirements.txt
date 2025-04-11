@@ -1,0 +1,10 @@
+# Dependencias principales
+pandas==2.0.3
+openpyxl==3.1.2
+numpy==1.24.3
+xlrd==2.0.1
+xlsxwriter==3.1.0
+matplotlib==3.7.2
+seaborn==0.12.2
+# Dependencias para interfaz de usuario (opcional)
+streamlit==1.23.1
