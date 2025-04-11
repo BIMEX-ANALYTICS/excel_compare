@@ -41,3 +41,8 @@ Una aplicación web para comparar archivos Excel y encontrar diferencias por cla
 5. Visualiza las diferencias y descarga el reporte en Excel
 
 ## Estructura del Proyecto
+
+app.py - Código principal de la aplicación
+requirements.txt - Dependencias del proyecto
+.env - Variables de entorno
+
