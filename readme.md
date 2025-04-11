@@ -12,6 +12,7 @@ Una aplicación web para comparar archivos Excel y encontrar diferencias por cla
 
 ## Instalación
 
+
 1. Clona el repositorio
 2. Crea un archivo `.env` con las siguientes variables:
    ```
@@ -24,6 +25,23 @@ Una aplicación web para comparar archivos Excel y encontrar diferencias por cla
    ```bash
    pip install -r requirements.txt
    ```
+
+### Instalación en Windows
+
+1. Abre una terminal (CMD o PowerShell)
+2. Navega hasta la carpeta de tu proyecto:
+   ```bash
+   cd ruta/a/tu/proyecto
+   ```
+3. Crea el entorno virtual:
+   ```bash
+   python -m venv venv
+   ```
+4. Activa el entorno virtual:
+   ```bash
+   venv\Scripts\activate
+   ```
+5. Confirma que está activado (verás (venv) al inicio de la línea de comandos)
 
 ## Uso
 
@@ -45,4 +63,3 @@ Una aplicación web para comparar archivos Excel y encontrar diferencias por cla
 app.py - Código principal de la aplicación
 requirements.txt - Dependencias del proyecto
 .env - Variables de entorno
-
