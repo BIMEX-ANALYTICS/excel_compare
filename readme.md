@@ -1,32 +1,43 @@
-# Crea el archivo README.md
-echo "# Excel Compare
+# Excel Compare - Streamlit App
 
-Una herramienta para comparar archivos Excel y encontrar diferencias.
+Una aplicación web para comparar archivos Excel y encontrar diferencias por clave.
 
 ## Características
 
-- Comparación de hojas de cálculo
+- Interfaz web intuitiva con Streamlit
+- Comparación de archivos Excel por clave
 - Resaltado de diferencias
-- Generación de reportes
+- Generación de reportes en Excel
+- Configuración mediante variables de entorno
 
 ## Instalación
 
-\`\`\`
-pip install -r requirements.txt
-\`\`\`
+1. Clona el repositorio
+2. Crea un archivo `.env` con las siguientes variables:
+   ```
+   # Configuración de la aplicación
+   DEBUG=False
+   PORT=8501
+   ```
+
+3. Instala las dependencias:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Uso
 
-\`\`\`python
-python excel_compare.py archivo1.xlsx archivo2.xlsx
-\`\`\`
-" > README.md
+1. Inicia la aplicación:
+   ```bash
+   streamlit run app.py
+   ```
 
-# Añade el README al repositorio
-git add README.md
+2. Accede a la aplicación en tu navegador (por defecto en http://localhost:8501)
 
-# Haz commit
-git commit -m "Añadir README"
+3. Sube los dos archivos Excel que deseas comparar
 
-# Haz push
-git push origin main
+4. Selecciona las columnas clave para la comparación
+
+5. Visualiza las diferencias y descarga el reporte en Excel
+
+## Estructura del Proyecto
